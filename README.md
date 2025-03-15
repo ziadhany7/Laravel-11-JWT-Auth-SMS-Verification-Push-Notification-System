@@ -78,6 +78,11 @@ https://documenter.getpostman.com/view/43110145/2sAYkBs1fD
 ## Logs & Debugging
 - Laravel Telescope is enabled to log all actions and errors.
 - Ensure `TELESCOPE_ENABLED=true` in `.env`.
+## Database Schema
+
+Below is the database schema diagram for the project:
+
+![Database Schema](database-schema.png.png)
 
 ## Contribution & Deployment
 - Ensure all features are tested before submitting changes.
