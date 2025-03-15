@@ -127,14 +127,14 @@ class AuthController extends Controller
         return response()->json(auth('api')->user());
     }
 
-    // تسجيل الخروج
+
     public function logout()
     {
         JWTAuth::invalidate(JWTAuth::getToken());
         return response()->json(['message' => 'Successfully logged out']);
     }
 
-    // إنشاء توكن جديد
+
     protected function respondWithToken($token)
     {
         return response()->json([
