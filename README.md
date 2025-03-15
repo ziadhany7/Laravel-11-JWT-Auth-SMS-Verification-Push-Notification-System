@@ -30,7 +30,7 @@ This project is a Laravel 11 API-based authentication and delivery system that i
 Ensure you have the following installed:
 - PHP 8+
 - Composer
-- Laravel 8+
+- Laravel 11
 - MySQL
 - Twilio SMS Account
 - Firebase Cloud Messaging (FCM) Account
@@ -69,6 +69,7 @@ Ensure you have the following installed:
 
 ### Postman Collection
 The Postman collection for API testing is included in the repository.
+https://documenter.getpostman.com/view/43110145/2sAYkBs1fD
 
 ## Notes & Issues
 - **Firebase Push Notifications:** Could not retrieve `FIREBASE_DEVICE_TOKEN`.
